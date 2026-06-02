@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    bootstrap="project-01-calculator/tests/bootstrap.php"
+    colors="true"
+>
+
+    <testsuites>
+
+        <testsuite name="Calculator Test Suite">
+            <directory>
+                project-01-calculator/tests
+            </directory>
+        </testsuite>
+
+    </testsuites>
+
+</phpunit>
